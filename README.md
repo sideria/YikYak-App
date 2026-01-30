@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# YikYak FrontEnd
 
-## Project info
+**No Internet. No Servers. No Login. Just Vibes.**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This is a peer-to-peer (P2P) mesh messaging application that works completely offline. It uses **Bluetooth Low Energy (BLE)** to create a local network, allowing devices to chat anonymously without Wi-Fi or cellular data.
 
-## How can I edit this code?
 
-There are several ways of editing your application.
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
+## Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **100% Offline:** Zero dependency on ISPs or servers.
+* **Bluetooth Mesh:** Messages hop between devices to extend range.
+* **Anonymous:** No sign-ups, no profiles, just an ID.
+* **Minimalist UI:** High-contrast, distraction-free "YikYak" aesthetic.
+* **Battery Efficient:** Optimized for BLE Low Latency.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+##  How It Works
 
-Follow these steps:
+1.  **Advertise:** Your phone broadcasts a unique "Service UUID" via Bluetooth.
+2.  **Scan:** It simultaneously listens for other phones broadcasting the same ID.
+3.  **Connect:** When two phones find each other, they form a direct GATT link.
+4.  **Sync:** Messages are flooded across the network instantly.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Preview
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+![Safety Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Safety.jpg)
+![Boards Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Boards.jpg)
+![Sign-Up-Page Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Sign-Up-Page.jpg)
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## Installation
 
-This project is built with:
+1.  Go to the **[Releases](../../releases)** page.
+2.  Download the latest `YikYakFE.apk`.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+##  Tech Stack
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+* **Vite**
+* **TypeScript**
+* **React**
+* **Tailwind CSS**
+* **shadcn-ui**
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+*Built for the FAIL.EXE Hackathon 2026.*
