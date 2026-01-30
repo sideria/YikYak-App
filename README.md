@@ -5,10 +5,6 @@
 This is a peer-to-peer (P2P) mesh messaging application that works completely offline. It uses **Bluetooth Low Energy (BLE)** to create a local network, allowing devices to chat anonymously without Wi-Fi or cellular data.
 
 
-
-
-
-
 ## Features
 
 * **100% Offline:** Zero dependency on ISPs or servers.
@@ -19,7 +15,7 @@ This is a peer-to-peer (P2P) mesh messaging application that works completely of
 
 ##  How It Works
 
-1.  **Advertise:** Your phone broadcasts a unique "Service UUID" via Bluetooth.
+1.  **Transmit:** Your phone broadcasts a unique "Service UUID" via Bluetooth.
 2.  **Scan:** It simultaneously listens for other phones broadcasting the same ID.
 3.  **Connect:** When two phones find each other, they form a direct GATT link.
 4.  **Sync:** Messages are flooded across the network instantly.
@@ -28,11 +24,6 @@ This is a peer-to-peer (P2P) mesh messaging application that works completely of
 
 ![Safety Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Sign-Up-Page.jpg)
 ![Boards Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Boards.jpg)
-![Sign-Up-Page Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Safety.jpg)
-
-
-
-
 
 
 
