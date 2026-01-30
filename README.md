@@ -26,9 +26,9 @@ This is a peer-to-peer (P2P) mesh messaging application that works completely of
 
 ## Preview
 
-![Safety Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Safety.jpg)
+![Safety Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Sign-Up-Page.jpg)
 ![Boards Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Boards.jpg)
-![Sign-Up-Page Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Sign-Up-Page.jpg)
+![Sign-Up-Page Image](https://raw.githubusercontent.com/sideria/YikYak-App/main/src/pages/Safety.jpg)
 
 
 
